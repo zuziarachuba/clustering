@@ -4,9 +4,10 @@ Projekt zawiera zestaw skryptów do analizy skupień (clustering) na zbiorze dan
 
 ## Zawartość projektu
 
-- `fcm.py` – implementacja algorytmu **Fuzzy C-Means (FCM)** do grupowania danych
-- `pcm.py` – implementacja algorytmu **Possibilistic C-Means (PCM)**
+- `fcm_scr.py` – implementacja algorytmu **Fuzzy C-Means (FCM)** do grupowania danych
+- `pcm_scr.py` – wizualizacja algorytmu **Possibilistic C-Means (PCM)**
 - `pca.py` – skrypt wykonujący **redukcję wymiarowości PCA** dla danych wejściowych
+- `pcm.py` - implementacja algorytmu **Possibilistic C-Means (PCM)**
 - `xie_beni.py` – obliczanie **wskaźnika Xie-Beni**, który ocenia jakość uzyskanego podziału na grupy
 
 ## Dane
@@ -27,7 +28,7 @@ Analiza prowadzona jest na publicznie dostępnym zbiorze danych:
 
 ## Uruchomienie
 
-Każdy skrypt można uruchomić niezależnie. Dane wejściowe powinny znajdować się w katalogu roboczym w pliku `.csv`.
+Każdy skrypt można uruchomić niezależnie. Dane wejściowe znajdują się w pliku `winequality-red.csv`.
 
 ---
 
