@@ -1,21 +1,21 @@
-# Analiza skupień metodami FCM i PCM na zbiorze danych Wine Quality
+# Clustering Analysis Using FCM and PCM on the Wine Quality Dataset
 
-Projekt zawiera zestaw skryptów do analizy skupień (clustering) na zbiorze danych **Wine Quality**. Wykorzystano metody rozmyte (fuzzy) FCM i PCM, a także analizę głównych składowych (PCA) i wskaźnik jakości grupowania Xie-Beni.
+This project includes a set of scripts for performing clustering analysis on the **Wine Quality** dataset. It uses fuzzy clustering methods (FCM and PCM), Principal Component Analysis (PCA), and the Xie-Beni validity index to evaluate clustering performance.
 
-## Zawartość projektu
+## Project Contents
 
-- `fcm_scr.py` – implementacja algorytmu **Fuzzy C-Means (FCM)** do grupowania danych
-- `pcm_scr.py` – wizualizacja algorytmu **Possibilistic C-Means (PCM)**
-- `pca.py` – skrypt wykonujący **redukcję wymiarowości PCA** dla danych wejściowych
-- `pcm.py` - implementacja algorytmu **Possibilistic C-Means (PCM)**
-- `xie_beni.py` – obliczanie **wskaźnika Xie-Beni**, który ocenia jakość uzyskanego podziału na grupy
+- `fcm_scr.py` – implementation of the **Fuzzy C-Means (FCM)** clustering algorithm
+- `pcm_scr.py` – visualization of the **Possibilistic C-Means (PCM)** algorithm
+- `pca.py` – script for performing **Principal Component Analysis (PCA)** on the input data
+- `pcm.py` – implementation of the **Possibilistic C-Means (PCM)** algorithm
+- `xie_beni.py` – calculation of the **Xie-Beni index**, used to evaluate the quality of clustering results
 
-## Dane
+## Dataset
 
-Analiza prowadzona jest na publicznie dostępnym zbiorze danych:  
-**Wine Quality Dataset** – dane dotyczące jakości wina, zawierające cechy chemiczne i sensoryczne.
+The analysis is based on the publicly available:  
+**Wine Quality Dataset** – contains physicochemical and sensory characteristics of red wine samples.
 
-## Wymagania
+## Requirements
 
 - Python 3.x
 - NumPy
@@ -24,14 +24,13 @@ Analiza prowadzona jest na publicznie dostępnym zbiorze danych:
 - scikit-fuzzy
 - sklearn
 - seaborn
-- Matplotlib (opcjonalnie, do wizualizacji)
+- Matplotlib (optional, for visualization)
 
-## Uruchomienie
+## Running the Scripts
 
-Każdy skrypt można uruchomić niezależnie. Dane wejściowe znajdują się w pliku `winequality-red.csv`.
+Each script can be run independently. The input data is provided in the file `winequality-red.csv`.
 
 ---
 
-> W przyszłości planowany jest jeden skrypt integrujący cały proces analizy.
-
+> In the future, a unified script integrating the entire analysis process is planned.
 
